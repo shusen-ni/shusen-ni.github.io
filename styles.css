@@ -591,6 +591,41 @@ a:hover {
   margin-bottom: 7px;
 }
 
+.project-figure {
+  width: min(100%, 880px);
+  margin: 22px auto 7px;
+}
+
+.project-figure a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--line));
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 28px color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 180ms ease;
+}
+
+.project-figure a:hover img,
+.project-figure a:focus-visible img {
+  transform: scale(1.012);
+}
+
+.project-figure figcaption {
+  margin-top: 8px;
+  color: var(--faint);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+}
+
 .conference-list article {
   padding: 18px 0;
 }
