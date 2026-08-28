@@ -592,7 +592,7 @@ a:hover {
 }
 
 .project-figure {
-  width: min(100%, 880px);
+  width: min(100%, 720px);
   margin: 22px auto 7px;
 }
 
